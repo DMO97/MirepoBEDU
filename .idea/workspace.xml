@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="177a31cc-c8c8-4229-a815-a2ca789c203e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/IndexMatcha.html" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMatcha.html" afterDir="false" />
-    </list>
+    <list default="true" id="177a31cc-c8c8-4229-a815-a2ca789c203e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,5 +97,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="884" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623290437850" />
+    <state x="970" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623560805978">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="970" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1623560805978" />
   </component>
 </project>
