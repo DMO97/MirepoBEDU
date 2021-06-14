@@ -1,0 +1,65 @@
+Index: IndexMatcha.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n    <style>\r\n        body {\r\n            background-color: #fffbf7;\r\n        }\r\n\r\n        h1 {\r\n            color: #46484c;\r\n            text-align: center;\r\n        }\r\n\r\n        p {\r\n            color: #8b8b8bcc;\r\n            font-family: verdana;\r\n            font-size: 20px;\r\n        }\r\n\r\n        button {\r\n            color: #fff;\r\n            background-color: #025157;\r\n        }\r\n    </style>\r\n\r\n    <!--Aqui va información importante pero no visible dentro del navegador -->\r\n    <title>Matcha</title>\r\n</head>\r\n<body>\r\n<!--Esto sera lo que se vera en el navegador web -->\r\n<div class=\"container\">\r\n    <!-- Content here -->\r\n    <h1>Build your blog. Build your business.</h1>\r\n    <p>\r\n        <b>Build your blog.</b> Build your business.\r\n    </p>\r\n    <div class=\"card\" style=\"width: 30rem;\">\r\n        <div class=\"card-body\" style=\"width: 80rem;\">\r\n            <form>\r\n                <div class=\"form-row\">\r\n                    <div class=\"col-md-4 mb-3\">\r\n                        <div class=\"form-row\">\r\n                            <label for=\"exampleinput1\">Name</label>\r\n                            <input type=\"text\" class=\"form-control\" id=\"exampleinput1\" placeholder=\"Name\" required>\r\n                        </div>\r\n                        <div class=\"form-row\">\r\n                            <label for=\"exampleinput2\">Last Name</label>\r\n                            <input type=\"text\" class=\"form-control\" id=\"exampleinput2\" placeholder=\"Last Name\" required>\r\n                        </div>\r\n                        <div class=\"form-row\">\r\n                            <label for=\"exampleinput3\">Last Name</label>\r\n                            <input type=\"number\" class=\"form-control\" id=\"exampleinput3\" placeholder=\"age\" required=\"\">\r\n                        </div>\r\n                        <div class=\"form-row\">\r\n                            <label for=\"exampleinput4\">Email address</label>\r\n                            <input type=\"email\" class=\"form-control\" id=\"exampleinput4\" placeholder=\"name@gmail.com\">\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"Password1\">Password</label>\r\n                            <input type=\"password\" class=\"form-control\" id=\"Password1\" placeholder=\"Password\">\r\n                        </div>\r\n\r\n                        <div class=\"form-row\">\r\n                            <button type=\"submit\" class=\"btn btn-primary\">Enviar</button>\r\n                        </div>\r\n                        <div class=\"form-row\">\r\n                            <div>\r\n                                </br><img class=\"col-md-10 mb-3\"\r\n                                          src=\"https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png\"/>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n        </div>\r\n    </div>\r\n\r\n</div>\r\n</body>\r\n<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\"\r\n        integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\"\r\n        crossorigin=\"anonymous\"></script>\r\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\"\r\n        integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\"\r\n        crossorigin=\"anonymous\"></script>\r\n<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\"\r\n        integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"\r\n        crossorigin=\"anonymous\"></script>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IndexMatcha.html	(revision be6f1ebacc54ed5bf6af95313ad147775aa29121)
++++ IndexMatcha.html	(date 1623709487882)
+@@ -30,6 +30,7 @@
+     <title>Matcha</title>
+ </head>
+ <body>
++
+ <!--Esto sera lo que se vera en el navegador web -->
+ <div class="container">
+     <!-- Content here -->
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"177a31cc-c8c8-4229-a815-a2ca789c203e\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/styles.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1te3aVivGgvKGDVZY0xhnOFNSvT\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../../../Public/Downloads\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\deyvi\\Documents\\matcha\\Second project\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"177a31cc-c8c8-4229-a815-a2ca789c203e\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1623115794554</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1623115794554</updated>\r\n      <workItem from=\"1623115799465\" duration=\"6168000\" />\r\n      <workItem from=\"1623280307242\" duration=\"10368000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"884\" y=\"190\" key=\"FileChooserDialogImpl\" timestamp=\"1623290437850\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state x=\"884\" y=\"190\" key=\"FileChooserDialogImpl/0.0.1536.864@0.0.1536.864\" timestamp=\"1623290437850\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision be6f1ebacc54ed5bf6af95313ad147775aa29121)
++++ .idea/workspace.xml	(date 1623709551056)
+@@ -20,9 +20,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="177a31cc-c8c8-4229-a815-a2ca789c203e" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/IndexMatcha.html" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMatcha.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -73,6 +72,9 @@
+       <updated>1623115794554</updated>
+       <workItem from="1623115799465" duration="6168000" />
+       <workItem from="1623280307242" duration="10368000" />
++      <workItem from="1623683146174" duration="3823000" />
++      <workItem from="1623703892654" duration="597000" />
++      <workItem from="1623707842162" duration="1691000" />
+     </task>
+     <servers />
+   </component>
+@@ -89,11 +91,16 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="884" y="190" key="FileChooserDialogImpl" timestamp="1623290437850">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+     <state x="884" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623290437850" />
++    <state x="964" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623709534054">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="964" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1623709534054" />
+   </component>
+ </project>
+\ No newline at end of file

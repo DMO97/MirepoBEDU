@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
         body {
-            background-color: cyan;
+            background-color: beige;
         }
 
         h1 {
@@ -20,16 +20,99 @@
             font-size: 20px;
         }
 
-        button {
-            color: #fff;
-            background-color: #025157;
+        .header {
+            margin-top: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 0;
+            height: 45px;
+            font-family: sans-serif;
         }
+
+
+        li {
+            display: inline;
+        }
+
+        .header > * {
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: middle;
+            height: 100%;
+            line-height: 45px;
+        }
+
+        .logo {
+            width: 15%;
+        }
+
+        .navbar {
+            width: 70%;
+            text-align: center;
+            color: #025157;
+        }
+
+        .menu-item {
+            display: inline;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+
+
+
+        .actions {
+            width: 15%;
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .actions > * {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .actions a {
+            color: #67b54b;
+        }
+
+        .actions button {
+            color: white;
+            background-color: #67b54b;
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 0;
+            border-radius: 5px;
+        }
+
     </style>
 
     <!--Aqui va información importante pero no visible dentro del navegador -->
     <title>Matcha</title>
 </head>
 <body>
+<header class="header">
+    <!-- Logo con link a la página principal -->
+    <a href="/" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
+    </a>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <ul class="menu-item">
+            <li>Platform</li>
+            <li>Pricing</li>
+            <li>Customers</li>
+            <li>Resources</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <!-- Contenedor de acciones de usuario -->
+    <div class="actions">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+    </div>
+</header>
 <!--Esto sera lo que se vera en el navegador web -->
 <div class="container">
     <!-- Content here -->
