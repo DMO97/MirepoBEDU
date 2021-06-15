@@ -37,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +65,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\deyvi\Documents\matcha\Second project" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deyvi\Documents\matcha\Matcha" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +80,14 @@
       <workItem from="1623115799465" duration="6168000" />
       <workItem from="1623280307242" duration="10368000" />
     </task>
+    <task id="LOCAL-00001" summary="Se agregaron cambios generales">
+      <created>1623726820692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623726820692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +105,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agregaron cambios generales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron cambios generales" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="884" y="190" key="FileChooserDialogImpl" timestamp="1623290437850">
       <screen x="0" y="0" width="1536" height="864" />
@@ -103,5 +118,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="970" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1623709869403" />
+    <state x="928" y="148" key="git4idea.branch.GitSmartOperationDialog" timestamp="1623724249541">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="928" y="148" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864@0.0.1536.864" timestamp="1623724249541" />
   </component>
 </project>
