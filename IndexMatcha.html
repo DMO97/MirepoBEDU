@@ -59,7 +59,6 @@
         }
 
 
-
         .actions {
             width: 15%;
             text-align: right;
@@ -85,6 +84,52 @@
             border: 0;
             border-radius: 5px;
         }
+
+        .publish {
+            /* container styles if any */
+        }
+
+        .publish h3 {
+            font-family: "Alegreya", serif;
+            font-size: 40px;
+            line-height: 48px;
+            color: #025157;
+        }
+
+        .publish > p {
+            font-size: 16px;
+            color: #343434;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .publish > form {
+            display: flex;
+        }
+
+        .publish > form p {
+            color: #025157;
+            margin-right: 18px;
+        }
+
+        .promo {
+            display: flex;
+            width: 70%;
+            margin: 100px auto;
+            align-items: center;
+        }
+
+        .explanatory-video {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .explanatory-video img {
+            width: 120px;
+            margin-top: 10px;
+        }
+
 
     </style>
 
@@ -114,54 +159,50 @@
     </div>
 </header>
 <!--Esto sera lo que se vera en el navegador web -->
-<div class="container">
-    <!-- Content here -->
-    <h1>Build your blog. Build your business.</h1>
-    <p>
-        <b>Build your blog.</b> Build your business.
-    </p>
-    <div class="card" style="width: 30rem;">
-        <div class="card-body" style="width: 80rem;">
-            <form>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <div class="form-row">
-                            <label for="exampleinput1">Name</label>
-                            <input type="text" class="form-control" id="exampleinput1" placeholder="Name" required>
-                        </div>
-                        <div class="form-row">
-                            <label for="exampleinput2">Last Name</label>
-                            <input type="text" class="form-control" id="exampleinput2" placeholder="Last Name" required>
-                        </div>
-                        <div class="form-row">
-                            <label for="exampleinput3">Last Name</label>
-                            <input type="number" class="form-control" id="exampleinput3" placeholder="age" required="">
-                        </div>
-                        <div class="form-row">
-                            <label for="exampleinput4">Email address</label>
-                            <input type="email" class="form-control" id="exampleinput4" placeholder="name@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="Password1">Password</label>
-                            <input type="password" class="form-control" id="Password1" placeholder="Password">
-                        </div>
+<h1 class="colo">Build your blog. Build your business.</h1>
+<section class="promo">
+    <article class="explanatory-video">
+    <video
+            controls
+            poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+    >
+        <source
+                type="video/webm"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+        />
+        <source
+                type="video/mp4"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        />
+    </video>
+        <img
+                src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+                alt="See how it works"
+        />
+    </article>
+    <article class="publish">
+        <h3>Publish to your blog in minutes, not hours.</h3>
+        <p>
+            Your blog is your most powerful asset to build, engage, and retain a loyal
+            audience. But you don’t have hours to create content that may or may not
+            work. With Matcha, instantly publish from our library of 10,000+
+            professionally written articles and build your email list faster with our
+            powerful conversion tool.
+        </p>
+        <form>
+            <p>Start publishing today:</p>
+            <div>
+                <input type="text" placeholder="Enter email"/>
+                <button>Start My Trial</button>
+            </div>
+        </form>
+    </article>
 
-                        <div class="form-row">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </div>
-                        <div class="form-row">
-                            <div>
-                                </br><img class="col-md-10 mb-3"
-                                          src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
 
-</div>
+
+</section>
+
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
