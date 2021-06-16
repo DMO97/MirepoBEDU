@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="177a31cc-c8c8-4229-a815-a2ca789c203e" name="Default Changelist" comment="" />
+    <list default="true" id="177a31cc-c8c8-4229-a815-a2ca789c203e" name="Default Changelist" comment="Se agregaron cambios generales">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexMatcha.html" beforeDir="false" afterPath="$PROJECT_DIR$/IndexMatcha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matcha/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matcha/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matcha/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Matcha/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Public/Downloads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scanner_front-main" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,6 +82,8 @@
       <updated>1623115794554</updated>
       <workItem from="1623115799465" duration="6168000" />
       <workItem from="1623280307242" duration="10368000" />
+      <workItem from="1623848191012" duration="1790000" />
+      <workItem from="1623870266950" duration="6594000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregaron cambios generales">
       <created>1623726820692</created>
@@ -108,10 +115,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Se agregaron cambios generales" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="884" y="190" key="FileChooserDialogImpl" timestamp="1623290437850">
+    <state x="884" y="190" key="FileChooserDialogImpl" timestamp="1623870281945">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="884" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623290437850" />
+    <state x="884" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623870281945" />
     <state x="970" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623709869403">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
